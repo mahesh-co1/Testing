@@ -4,7 +4,7 @@ import flvjs from "flv.js";
 const Test = () => {
   const video = useRef();
   const id = "12";
-  const rtsp = "rtsp://admin:123456@140.0.192.33:7070";
+  const rtsp = "rtsp://freja.hiof.no:1935/rtplive/definst/hessdalen03.stream";
 
   const [player, setPlayer] = useState(null);
 
